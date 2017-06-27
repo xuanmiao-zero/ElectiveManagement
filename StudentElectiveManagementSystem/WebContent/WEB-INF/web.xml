@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name></display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>logininandup.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>ManagerLoginCheck</servlet-name>
+    <servlet-class>servlet.ManagerLoginCheck</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ManagerLoginCheck</servlet-name>
+    <url-pattern>/managerLogin</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>ManagerRegisterCheck</servlet-name>
+    <servlet-class>servlet.ManagerRegisterCheck</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ManagerRegisterCheck</servlet-name>
+    <url-pattern>/managerRegister</url-pattern>
+  </servlet-mapping>
+  
+ 
+   <servlet>
+    <servlet-name>StudentLoginCheck</servlet-name>
+    <servlet-class>servlet.StudentLoginCheck</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentLoginCheck</servlet-name>
+    <url-pattern>/studentLogin</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>StudentRegisterCheck</servlet-name>
+    <servlet-class>servlet.StudentRegisterCheck</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentRegisterCheck</servlet-name>
+    <url-pattern>/studentRegister</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>StudentInfoAdd</servlet-name>
+    <servlet-class>servlet.StudentInfoAdd</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentInfoAdd</servlet-name>
+    <url-pattern>/studentInfoAdd</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>StudentInfoDelete</servlet-name>
+    <servlet-class>servlet.StudentInfoDelete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentInfoDelete</servlet-name>
+    <url-pattern>/studentInfoDelete</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>StudentInfoInquire</servlet-name>
+    <servlet-class>servlet.StudentInfoInquire</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentInfoInquire</servlet-name>
+    <url-pattern>/studentInfoInquire</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>StudentInfoModify</servlet-name>
+    <servlet-class>servlet.StudentInfoModify</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentInfoModify</servlet-name>
+    <url-pattern>/studentInfoModify</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>ClassInfoAdd</servlet-name>
+    <servlet-class>servlet.ClassInfoAdd</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ClassInfoAdd</servlet-name>
+    <url-pattern>/ClassInfoAdd</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ClassInfoDelete</servlet-name>
+    <servlet-class>servlet.ClassInfoDelete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ClassInfoDelete</servlet-name>
+    <url-pattern>/ClassInfoDelete</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ClassInfoInquire</servlet-name>
+    <servlet-class>servlet.ClassInfoInquire</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ClassInfoInquire</servlet-name>
+    <url-pattern>/ClassInfoInquire</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ClassInfoModify</servlet-name>
+    <servlet-class>servlet.ClassInfoModify</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ClassInfoModify</servlet-name>
+    <url-pattern>/ClassInfoModify</url-pattern>
+  </servlet-mapping>
+</web-app>

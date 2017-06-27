@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>登陆界面</title>
+<style type="text/css">
+	.formone{
+		width:260px;
+		margin:200px auto;
+		padding:20px;		
+		border:1px solid #000;
+		}
+	.formone tr{
+		height:40px;
+		}
+</style>
+</head>
+
+<body bgcolor="CCCFFF" background="picture/ceshi.jpg">
+	<form name="formone" class="formone">
+    <table>
+    <br><br><br>
+    <br><br><br>
+    <table border="1" width="200" align="center">
+    <tr>
+        <td colspan="2">
+           <h3 align="center">学生管理系统</h3>
+    </tr>
+    
+    <tr class = "but_style">
+    	<td><input type="submit" name="button1" value="管理员" onClick="checkone()" /></td>
+        <td><input type="reset" name="button2" value="学生" onClick="checktwo()" ></td>
+    </tr>
+    
+    </table>
+    </form>
+</body>
+</html>
+
+<script>
+
+function checkone()
+{	
+	document.formone.method = "post"; 
+	document.formone.action = "Adenglu.html";
+	document.formone.submit();
+	
+}
+function checktwo()
+{
+	document.formone.method = "post";
+	document.formone.action = "denglu.html";
+	document.formone.submit();
+	
+}
+</script>

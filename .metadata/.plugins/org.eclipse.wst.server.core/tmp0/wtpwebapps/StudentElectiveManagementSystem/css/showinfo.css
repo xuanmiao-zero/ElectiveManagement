@@ -1,0 +1,32 @@
+#table caption button{
+    font:500 15px '微软雅黑';
+    margin:1em 1em 1em 1em;
+    padding:0.5em 2em;
+    /*background: #4cae4c;*/
+    color:#fff;
+    border:1px; border-radius:5em/7em;
+}
+#table caption button:nth-child(1){
+    background-image:url(../image/add.png);
+    background-size:15% 34%;
+    background-position:83% 52%;
+    background-repeat:no-repeat;
+}
+#table caption button:nth-child(2){
+    background-image:url(../image/delete.png);
+    background-size:15% 34%;
+    background-position:83% 52%;
+    background-repeat:no-repeat;
+}
+#table caption button:nth-child(3){
+    background-image:url(../image/modify.png);
+    background-size:15% 34%;
+    background-position:83% 52%;
+    background-repeat:no-repeat;
+}
+#table caption button:nth-child(4){
+    background-image:url(../image/inquire.png);
+    background-size:15% 34%;
+    background-position:83% 52%;
+    background-repeat:no-repeat;
+}

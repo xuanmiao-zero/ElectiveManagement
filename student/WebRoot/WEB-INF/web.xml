@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app PUBLIC
+  '-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN'
+  'http://java.sun.com/j2ee/dtds/web-app_2_3.dtd'>
+
+<web-app>
+
+  <servlet>
+    <servlet-name>userregisterServlet</servlet-name>
+    <servlet-class>DAO.RegisterServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>userregisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  
+ 
+  <servlet>
+    <servlet-name>userServlet</servlet-name>
+    <servlet-class>DAO.dengluServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>userServlet</servlet-name>
+    <url-pattern>/dengluServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>adminServlet</servlet-name>
+    <servlet-class>DAO.AdengluServlet</servlet-class>
+  </servlet>
+ 
+ <servlet-mapping>
+    <servlet-name>adminServlet</servlet-name>
+    <url-pattern>/AdengluServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AddStudentServlet</servlet-name>
+    <servlet-class>DAO.AddStudentServlet</servlet-class>
+  </servlet>
+
+ <servlet-mapping>
+    <servlet-name>AddStudentServlet</servlet-name>
+    <url-pattern>/AddStudentServlet</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>AddReportServlet</servlet-name>
+    <servlet-class>DAO.AddReportServlet</servlet-class>
+  </servlet>
+
+ <servlet-mapping>
+    <servlet-name>AddReportServlet</servlet-name>
+    <url-pattern>/AddReportServlet</url-pattern>
+  </servlet-mapping>
+    
+    
+    <servlet>
+    <servlet-name>SelectServlet</servlet-name>
+    <servlet-class>DAO.SelectServlet</servlet-class>
+   </servlet>
+
+    <servlet-mapping>
+    <servlet-name>SelectServlet</servlet-name>
+    <url-pattern>/SelectServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+    <servlet-name>Select2Servlet</servlet-name>
+    <servlet-class>DAO.Select2Servlet</servlet-class>
+   </servlet>
+
+    <servlet-mapping>
+    <servlet-name>Select2Servlet</servlet-name>
+    <url-pattern>/Select2Servlet</url-pattern>
+    </servlet-mapping>
+    
+
+
+
+     
+  <welcome-file-list>
+    <welcome-file>denglu.htm</welcome-file>
+  </welcome-file-list>
+
+
+</web-app>

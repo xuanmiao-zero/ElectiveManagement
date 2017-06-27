@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Administrator management UI</title>
+    
+    
+    <link rel="stylesheet" href="easyui/themes/default/easyui.css">
+    <link rel="stylesheet" href="easyui/themes/icon.css">
+    <link rel="stylesheet" href="css/administratormanagement.css">
+    
+</head>
+<body>
+    <header>
+        <div><img src="image/eye.png" alt="顶部图片"></div>
+        <div><h1>学生选课管理系统</h1></div>
+    </header>
+    <nav>
+        <button><a href="showinfo.html" target="mainframe"><li>学生信息</li></a></button>
+        <button><a href="showclass.html" target="mainframe"><li>课程信息</li></a></button>
+        <button><a href="electivelass.html" target="mainframe"><li>选课信息</li></a></button>
+    </nav>
+    <iframe name="mainframe" src="showinfo.html" frameborder="0" scrolling="">
+        <!--<content>-->
+            <!---->
+            <!--<div id="operation">-->
+                <!--<caption>-->
+                    <!--<button type="button" class="btn btn-info" id="user_add" data-toggle="modal"-->
+                            <!--data-target="#myModal" onclick="optionUserData(this);">新增</button>-->
+                    <!--<button type="button" class="btn btn-info" id="user_delete" onclick="optionUserData(this);">删除</button>-->
+                    <!--<button type="button" class="btn btn-info" id="user_edit"  data-toggle="modal"-->
+                            <!--data-target="#myModal"  onclick="optionUserData(this);">编辑</button>-->
+                    <!--<button type="button" class="btn btn-info" id="user_find" onclick="optionUserData(this);">查询</button>-->
+                    <!--<input type="text" id="s_code" placeholder="按学号查询" style="width: 80px;">-->
+                    <!--<input type="text" id="s_userName" placeholder="按姓名查询" style="width: 80px;">-->
+                    <!--<input style="display: none;" type="text" id="s_all" placeholder="全文搜索" style="width: 80px;">-->
+                <!--</caption>-->
+            <!--</div>-->
+            <!--<div id="info">-->
+                <!--<table>-->
+                    <!--<thead>-->
+                        <!--<tr>-->
+                            <!--<th>选择</th>-->
+                            <!--<th>学号</th>-->
+                            <!--<th>姓名</th>-->
+                            <!--<th>密码</th>-->
+                        <!--</tr>-->
+                    <!--</thead>-->
+                    <!--<tbody>-->
+                        <!--<tr>-->
+                            <!--<td><input id="a" type="checkbox"></input></td>-->
+                            <!--<td><input type="text" name="student_id" value="学号" readonly="readonly" ></td>-->
+                            <!--<td><input type="text" name="name" value="姓名" readonly="readonly"></td>-->
+                            <!--<td><input type="text" name="password" value="密码" readonly="readonly"></td>-->
+                        <!--</tr>-->
+                    <!--</tbody>-->
+                <!--</table>-->
+            <!--</div>-->
+            <div id="info" >
+
+            </div>
+        </content>
+    </iframe>
+    <script type="text/javascript" src="easyui/jquery.min.js"></script>
+    <script type="text/javascript" src="easyui/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="easyui/locale/easyui-lang-zh_CN.js"></script>
+    
+    
+    <script src="js/administratormanagement.js"></script>
+</body>
+</html>

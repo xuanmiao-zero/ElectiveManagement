@@ -1,0 +1,167 @@
+*{
+	margin:0px;
+	padding:0px;
+	
+}
+boby{
+	background:#fff;
+	width:1000px;
+	margin:0 auto;
+	text-align:center;
+
+	}
+
+img{
+	border:none;
+}
+
+h1{
+	height:150px;
+	line-height:200px;
+	text-indent:28px;
+	font-size:16px;
+	font-family:"Î¢ÈíÑÅºÚ";
+	font-weight:bold;
+	text-align:left;
+	color:#EEE;
+	background:#2a91d3 url(picture/ceshi.jpg)no-repeat 10px 7px;
+	border-bottomm:1px solid #C0C0C0;
+	
+}
+
+
+#header{
+	width:1000px;
+	height:150px;
+	background-color:#2A91D3;
+	margin: 0 auto;
+}
+#header p{
+	font-family:"Î¢ÈíÑÅºÚ";
+	font-size:36px;
+	height:150px;
+	line-height:150px;
+	text-align:center;
+	color:#FFF;
+}
+#header p span{
+   color:#EFC;
+   font-size:30px;
+   font-weight:bold;
+}
+
+#content{
+	width:1000px;
+	margin:5px auto;
+	background:#EAEAEA;
+}
+
+#left{
+	margin:10px 3px 10px 10px;
+	width:200px;
+	float:left;
+	background:#F9F8F4;
+	border:1px solid #c0c0c0;
+}
+
+#right{
+    margin:10px 10px 10px 3px;
+    padding-bottom:20px;
+    width:770px;
+    background:#FFF;
+    float:right;
+    border:1px solid #c0c0c0;
+}
+
+.clearf{
+	clear:both;
+}
+
+#footer{
+	width:1000px;
+	height:76px;
+	background:url(picture/ceshi.jpg);
+}
+#footer p{
+	height:76px;
+	line-height:76px;
+	text-align:center;
+	font-family:"Î¢ÈíÑÅºÚ";
+	font-size:12px;
+	font-weight:bold;
+	color:#DDD;
+}
+
+/*×ó²à²Ëµ¥ÑùÊ½*/
+#menu{
+	margin:20px auto;
+}
+
+#menu a{
+	display:block;
+	height:34px;
+	line-height:34px;
+	text-indent:45px;
+	font-family:"Î¢ÈíÑÅºÚ";
+	font-size:14px;
+	font-weight:bold;/*¼Ó´Ö*/
+	color:#00c;
+	text-decoration:none;
+	border-bottom:2px solid #dee;
+	background:url(picture/ceshi.jpg) no-repeat 10% 50%;
+	
+}
+
+
+#menu a.checked,#menu a:hover{
+	color:#EEE;
+	background:#046DF7 url(picture/ceshi.jpg) no-repeat 10% 50%;
+	border:1px solid #F91;
+}
+
+
+#hmenu{
+	width:98%;
+	margin:0 auto;
+	height:38px;
+	line-height:38px;
+	border-bottom:1px solid # E0C21D;
+}
+
+#hmenu u1{
+	list-style-type:none;
+	font-size:12px;
+}
+
+#hmenu u1 li{
+	float:right;
+	paddig:0px 12px;
+	color:#333;
+	background:url(picture/ceshi.jpg) no-repeat center right;
+	
+}
+
+#hmenu li a{
+	text-decoration:none;
+}
+
+#hmenu li a:hover{
+	color:#F4A;
+}
+
+
+/*²Ù×÷ËµÃ÷ÑùÊ½*/
+.operation{
+	width:98%;
+	text-align:left;
+	margin:0 auto;
+	padding:8px 0px;
+	border-bottom:1px solid #B1648A;
+	font-size:12px;
+	font--weight:bold;
+	color:#42F;
+}
+
+.operation span.mess{
+	color:red;
+}

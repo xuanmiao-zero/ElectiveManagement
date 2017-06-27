@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#method_choice .form form p input{
+    margin-left:1.7em;
+}
+.active{
+    background-color:#F94E3F;
+}
+button,form input[type='submit'],form input[type='reset'] {
+    background: #4285F4;
+    padding: 0;
+    margin:1em;
+    margin-left: 2em;
+    width:48px;
+    height:27px;
+    color:#fff;
+    border:1px; border-radius:5em/7em;
+
+}
+form input[type='text'],form input[type='password']{
+    width:180px;
+    height:20px;
+    margin:1px;
+}
+#manager .choice,#student .choice{
+    width:330px;
+    height:50px;
+    /*background:red;*/
+    position:relative;
+}
+#manager .choice button[value='1'],#student .choice button[value='1']{/*去掉#student和#manager就控制不到了*/
+    margin-left:7em;
+}
+.form {
+    width:300px;
+    height:160px;
+    border-radius:1em/1em;
+    background-color: #ff6;
+    padding: 1em;
+    display: none;
+    position: relative;
+}
+form {
+    font:500 14px '微软雅黑';
+    color:#09f;
+    position  : absolute;
+    top       : 50%;
+    left      : 50%;
+    transform : translate(-50%,-50%);
+}
+#method_choice>:first-child button{
+    width: 6em;
+    margin:1em;
+}
+
+#method_choice>:first-child button:first-child{
+    margin-left:5em;
+}
+#main{
+    width:100%;
+    height:42em;
+    background:#8CD790;
+}
+#method_choice {
+    /*background:#88ff88;*/
+    /*width:100%;*/
+    height:18em;
+    /*居中*/
+    position  : absolute;
+    top       : 45%;
+    left      : 50%;
+    transform : translate(-50%,-50%);
+}
